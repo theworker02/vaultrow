@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vaultrow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vault structured JSON row payloads without a heavyweight toolkit.",
+  "bin": {
+    "vaultrow": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vaultrow.git"
+  },
+  "homepage": "https://theworker02.github.io/vaultrow/",
+  "keywords": [
+    "vault",
+    "row",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
